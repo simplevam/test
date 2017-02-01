@@ -1,0 +1,70 @@
+use shop
+set names utf8
+select count(*) from adminVam where username=admin'
+use shop
+set names utf8
+select count(*) from adminVam where username='admin'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin\'\'\''
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin\' or \'1\'=\'1\'#'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin\' or \'1\'=\'1\'#'
+use shop
+set names utf8
+select * from category
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin'
+use shop
+set names utf8
+select user_id,username,email,password from adminVam where username= 'admin'
+use shop
+set names utf8
+select * from category
+use shop
+set names utf8
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods order by add_time limit 5
+select * from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use shop
+set names utf8
+select user_id,username,email,passwd from user where username= 'test'
+use shop
+set names utf8
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods order by add_time limit 5
+select * from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use shop
+set names utf8
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods order by add_time limit 5
+select * from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use shop
+set names utf8
+select user_id,username,email,passwd from user where username= 'test'
+use shop
+set names utf8
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods order by add_time limit 5
+select * from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
+use shop
+set names utf8
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods order by add_time limit 5
+select * from category
+select goods_id,goods_name,shop_price,market_price,thumb_img from goods where cat_id in (4,5,6) order by add_time limit 0,5
